@@ -181,6 +181,7 @@ def generate_control_card():
 
 app.layout = html.Div(
     id="app-container",
+    style={"backgroundColor": "#f2f2f2"},
     children=[
         
         # Left column
